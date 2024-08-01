@@ -103,6 +103,28 @@ Builds and returns the final regex.
 ### `validatePattern()`
 Validates the constructed regex pattern.
 
+## Regex Flags
+
+The `RegexGenerator` class allows you to customize regex flags using the `setFlags` method. Here’s a summary of the available flags:
+
+- **`i`**: Case-insensitive matching.
+- **`g`**: Global matching.
+- **`m`**: Multiline mode.
+- **`u`**: Unicode matching.
+- **`y`**: Sticky mode.
+
+### Example Usage
+
+Here’s how you can use these flags in the `setFlags` method of the `RegexGenerator` class:
+
+```javascript
+const reg = new RegexGenerator();
+reg.setFlags({ caseInsensitive: true, global: true });
+// This sets the regex to be case-insensitive and global.
+```
+
+Each flag modifies how the regex engine performs matching, allowing for flexible and powerful pattern matching. For more detailed information, refer to the [FLAGS](FLAGS.md) file in this repository.
+
 ## Static Methods
 
 - **`email()`**: Generates a regex for validating email addresses.
