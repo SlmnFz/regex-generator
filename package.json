@@ -1,0 +1,32 @@
+{
+  "name": "regex-generator",
+  "version": "1.0.0",
+  "description": "A utility for generating regular expressions based on user input.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "SalmanFz",
+  "license": "MIT",
+  "keywords": [
+    "regex",
+    "generator",
+    "regular expressions",
+    "utility",
+    "regex generator",
+    "regex creator",
+    "email",
+    "phone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SlmnFz/regex-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SlmnFz/regex-generator/issues"
+  },
+  "homepage": "https://github.com/SlmnFz/regex-generator#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
