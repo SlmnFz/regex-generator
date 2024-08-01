@@ -30,7 +30,7 @@
 You can install `RegexGenerator` via npm:
 
 ```sh
-npm install regex-gen
+npm install fz-regex-generator
 ```
 
 ## Usage
@@ -40,7 +40,7 @@ Here's a quick overview of how to use `RegexGenerator`:
 ### Creating a Regex Pattern
 
 ```javascript
-const RegexGenerator = require('regex-gen');
+const RegexGenerator = require('fz-regex-generator');
 
 const reg = new RegexGenerator();
 reg.addDigit({ count: 3 })

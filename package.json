@@ -1,5 +1,5 @@
 {
-  "name": "regex-gen",
+  "name": "fz-regex-generator",
   "version": "1.0.0",
   "description": "A utility for generating regular expressions based on user input.",
   "main": "src/index.js",
